@@ -14,5 +14,4 @@ const reverseInt = n => {
   return parseInt(reversedString) * Math.sign(n)
 }
 
-
 module.exports = reverseInt;
