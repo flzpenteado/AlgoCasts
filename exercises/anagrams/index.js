@@ -45,6 +45,4 @@ const anagrams = (stringA, stringB) => sanitize(stringA) === sanitize(stringB)
 
 const sanitize = string => string.replace(/[^\w]/g, '').toLowerCase().split('').sort().join()
 
-
-
 module.exports = anagrams;
